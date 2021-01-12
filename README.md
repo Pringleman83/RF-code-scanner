@@ -32,7 +32,7 @@ This is a silly brute forcer that cycles through codes. It's very basic and so p
 
 It's set up for an Arduino Nano but i believe the pin configuration would be the same for an UNO too.
 
-Here's a basic layout of the circuit:
+Here's a basic layout of the circuit (OLED version):
 
 Arduino Pin
 
