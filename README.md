@@ -42,7 +42,7 @@ Arduino Pin
     D10       >>       Transmitter Data
     A4        >>       OLED SDA
     A5        >>       OLED SCL
-    VCC       >>       Receiver, Transmitter, OLED VCC
+    5V        >>       Receiver, Transmitter, OLED VCC
     GND       >>       Receiver, Transmitter, OLED, Buttons GND
     
     
