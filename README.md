@@ -36,14 +36,14 @@ Here's a basic layout of the circuit:
 
 Arduino Pin
 
-    D2                Receiver Data
-    D4                Select Button           GND
-    D5                Navigate Button         GND
-    D10               Transmitter Data
-    A4                OLED SDA
-    A5                OLED SCL
-    VCC               Receiver, Transmitter, OLED VCC
-    GND               Receiver, Transmitter, OLED, Buttons GND
+    D2        >>       Receiver Data
+    D4        >>       Select Button      >>     GND
+    D5        >>       Navigate Button    >>     GND
+    D10       >>       Transmitter Data
+    A4        >>       OLED SDA
+    A5        >>       OLED SCL
+    VCC       >>       Receiver, Transmitter, OLED VCC
+    GND       >>       Receiver, Transmitter, OLED, Buttons GND
     
     
 You'll need the following libraries installed:
