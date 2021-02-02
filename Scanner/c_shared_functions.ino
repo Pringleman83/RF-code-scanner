@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+void transmit(int protocol, unsigned long code, int bitlength){
+  display.clear();
+  display.setCursor(0,1);
+  display.print(F("Transmitting..."));
+  
+  mhz433t.setProtocol(protocol);
+  mhz433t.send(code, bitlength);
+  delay(125);
+  mhz433r.resetAvailable();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
